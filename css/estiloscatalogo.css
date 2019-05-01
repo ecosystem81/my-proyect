@@ -1,0 +1,38 @@
+#contenido{
+	background-color: black;
+
+}
+
+#catalogo{
+	overflow: hidden;
+	padding: .5rem 0;
+
+}
+
+
+#catalogo p{
+	color: white;
+
+}
+
+#Galeria{
+	text-align: center;
+}
+
+
+.fotos{
+	width:19%;	
+	border: 2px solid silver;
+	display: inline-block;
+
+}
+
+#catalogo p{
+	background-color: #B9F012;
+	color: black;
+	text-align: center;
+}
+
+.fotos img{
+	width: 100%;
+}

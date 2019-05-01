@@ -1,0 +1,71 @@
+#cuerpo{
+background-color: #c0c0c0;
+width: 100%;
+max-width: 1000px;
+height: 500px;
+
+
+
+}
+
+#contenido2{
+	background-color: #BFD3F8;
+	height: 100%;
+	width: 100%;
+	max-width: 1000px;
+	border: 2px solid blue;
+	font-family: monospace;
+
+}
+
+form{
+	width: 450px;
+	background-color: grey;
+	padding: 1rem 2rem;
+	margin: auto;
+	border-radius: .5rem;
+	box-sizing: border-box;
+	margin-top: 1rem;
+}
+
+h4{
+	color: white;
+	text-align: center;
+	margin: .6rem;
+	font-size: 1.5rem;
+	border: none;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: .3rem;
+	box-sizing: border-box;
+	font-size: .8rem;
+}
+
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#boton{
+	background:#31384A;
+	color:#FFF;
+	padding: .5rem;
+	font-size: 1.2rem;
+}
+
+#boton:hover{
+	cursor: pointer;
+}
+
+@media (max-width: 480px){
+form{
+	width: 100%;
+}
+
+}

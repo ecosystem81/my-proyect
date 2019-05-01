@@ -1,0 +1,30 @@
+#nosotros{
+	display: inline-flex;
+	overflow: hidden;
+
+}
+#contenido{
+	background-color: white;
+}
+
+#nosotros img{
+	border: 2px solid silver;
+	margin: 10px;
+
+}
+
+#nosotros p{
+	color: #051934;
+	text-align: justify;
+	margin:10px;
+}
+
+#encabezado{
+	max-width: 1000px;
+	width: 100%;
+	color: black;
+	text-align: center;
+	background: none;
+	font-size: 40px;
+}
+
