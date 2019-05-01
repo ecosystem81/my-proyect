@@ -1,9 +1,9 @@
 <?php 
 	$destino= "taose2016@gmail.com";
-	$nombre = $_post["nombre"];
-	$correo = $_post["correo"];
-	$telefono = $_post["telefono"];
-	$mensaje = $_post["mensaje"];
+	$nombre = $_POST["nombre"];
+	$correo = $_POST["correo"];
+	$telefono = $_POST["telefono"];
+	$mensaje = $_POST["mensaje"];
 	$contenido = "Nombre: " . $nombre . "\nCorreo: " .$correo . ".\Teléfono: " . $telefono . "\nMensaje: " . $mensaje;
 
 	mail($destino,"Contacto", $contenido);
